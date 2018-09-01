@@ -7,3 +7,10 @@ html{
 .bg-blue{
     background: #2646ba;
 }
+
+/* Buttons */
+.btn-blue{
+    color: white;
+    background: #2646ba;
+    border-radius: none;
+}
