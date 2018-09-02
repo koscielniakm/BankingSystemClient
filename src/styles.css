@@ -41,5 +41,10 @@ a:visited{
 .btn-blue{
     color: white;
     background: #2646ba;
-    border-radius: none;
+    border: 1px solid #4f6fdb;
+    border-radius: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
