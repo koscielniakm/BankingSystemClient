@@ -3,7 +3,7 @@
     <div id="login-container" class="col-lg-6">
       <div class="container-fluid text-center">
         <img src="../../assets/logo/logo.png" class="logo"/>
-        <form>
+        <form (submit)="login($event)">
             <h3>Logowanie</h3>
             <div class="form-group row">
               <label for="input-account" class="col-3 col-form-label">Numer konta</label>

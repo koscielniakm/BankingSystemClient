@@ -9,9 +9,15 @@ export class LoginComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() { }
+
+  login(event) {
+    event.preventDefault();
+    var accountNumber = event.target.elements[0].value;
+    var password = event.target.elements[1].value;
+    console.log(accountNumber);
+    console.log(password);
+    return false;
   }
-
   
-
 }
