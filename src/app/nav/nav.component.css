@@ -1,0 +1,9 @@
+#nav{
+    height: 50px;
+    background: #0b42bd;
+    display: block;
+}
+.nav-text{
+    color: white;
+    vertical-align: middle;
+}
